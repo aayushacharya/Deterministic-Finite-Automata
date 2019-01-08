@@ -1,6 +1,6 @@
-##Deterministic Finite Automata 
-#####Submitted By: _Aayush Acharya_
-##Description
+<h2>Deterministic Finite Automata</h2><br> 
+<h4>Submitted By: _Aayush Acharya_</h4><br>
+<h2>Description</h2><br>
 <p>In this project, one can configure DFA through text file following certain set of rules. The program will receive input string from the user
 and will display whether the string is accepted or rejected by the DFA</p>
 <p>In the sample file, I have configured a DFA which does not accept three consecutive b's</p><br>
