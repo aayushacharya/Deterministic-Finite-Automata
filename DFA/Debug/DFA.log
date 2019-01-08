@@ -1,0 +1,8 @@
+﻿  main.cpp
+e:\dfa\dfa\main.cpp(60): warning C4715: 'stateQ0': not all control paths return a value
+e:\dfa\dfa\main.cpp(78): warning C4715: 'stateA1': not all control paths return a value
+e:\dfa\dfa\main.cpp(96): warning C4715: 'stateA2': not all control paths return a value
+e:\dfa\dfa\main.cpp(114): warning C4715: 'stateB1': not all control paths return a value
+e:\dfa\dfa\main.cpp(132): warning C4715: 'stateB2': not all control paths return a value
+e:\dfa\dfa\main.cpp(151): warning C4715: 'stateB3': not all control paths return a value
+  DFA.vcxproj -> E:\DFA\Debug\DFA.exe

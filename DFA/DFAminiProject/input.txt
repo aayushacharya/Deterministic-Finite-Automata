@@ -1,0 +1,12 @@
+{p,q,r,s}
+{a,b}
+p
+{p,q,r}
+p->a->p
+p->b->q
+q->a->p
+q->b->r
+r->a->p
+r->b->s
+s->a->s
+s->b->s
