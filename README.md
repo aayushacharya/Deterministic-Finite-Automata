@@ -5,9 +5,10 @@
 and will display whether the string is accepted or rejected by the DFA</p>
 <p>In the sample file, I have configured a DFA which does not accept three consecutive b's</p><br>
 <h4>Rules to configure DFA through text file</h4><br>
-<li>First line: Set of total states where the name of state should only be of one character.Eg.{p,q,r,s}
-<li>Second line: Set of alphabets.Eg.{a,b}
-<li>Third line: Initial state.Eg.p
-<li>Fourth line: Set of final states.Eg.{p,q,r}
+<li>First line: Set of total states where the name of state should only be of one character.Eg.{p,q,r,s}</li>
+<li>Second line: Set of alphabets.Eg.{a,b}</li>
+<li>Third line: Initial state.Eg.p</li>
+<li>Fourth line: Set of final states.Eg.{p,q,r}</li>
 <li>Fifth line onwards: Should consist transition table of the following format
-    <li>Initial state->Alphabet->Final state Eg.p->b->q 
+    <li>Initial state->Alphabet->Final state Eg.p->b->q </li>
+</li>
