@@ -3,6 +3,7 @@
 #include<cstring>
 void setCursor(FILE*);
 void readState(FILE*, char*);
+void displayString(char,char*);
 int flag=0;
 int main(){
 
@@ -42,7 +43,8 @@ int main(){
 			if (currentState == state) {
 				if (lang == inputString[j])
 				{
-					printf("(%c,%c),", currentState,nextState);
+					//printf("(%c,%c),", currentState,nextState);
+					displayString(currentState, inputString);
 					currentState = nextState;
 					break;
 				}
@@ -52,7 +54,7 @@ int main(){
 	}
 	for (int i = 0; i < strlen(finalStates);i++)
 	{
-		if (currentState == finalStates[i]) {
+if (currentState == finalStates[i]) {
 			printf("\nThe string is accepted: ");
 			flag = 1;
 			break;
@@ -98,6 +100,18 @@ void readState(FILE* f,char* s)
 		counter++;
 	}
 	s[counter] = 0;
+}
+void displayString(char currentState, char* inputString)
+{
+	static int i = 0;
+	int counter = i;
+	printf("(%c,", currentState);
+	for (;counter < strlen(inputString);counter++)
+	{
+		printf("%c", inputString[counter]);
+	}
+	i++;
+	printf(")\n");
 }
 
 
