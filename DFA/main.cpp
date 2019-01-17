@@ -43,6 +43,10 @@ int main(){
 			if (currentState == state) {
 				if (lang == inputString[j])
 				{
+<<<<<<< HEAD
+=======
+					//printf("(%c,%c),", currentState,nextState);
+>>>>>>> ddcabe771fe2161522d4a0b4c71248f399f97cb3
 					displayString(currentState, inputString);
 					currentState = nextState;
 					break;
