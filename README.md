@@ -1,5 +1,5 @@
 <h2>Deterministic Finite Automata</h2><br> 
-<h4>Submitted By: <i>Aayush Acharya</i></h4><br>
+<h4>By: <i>Aayush Acharya</i></h4><br>
 <h2>Description</h2><br>
 <p>This project is implemented using C++. In this project, one can configure DFA through text file following certain set of rules. The program will receive input string from the user
 and will display whether the string is accepted or rejected by the DFA whilst showing every configuration(state, string)</p>
